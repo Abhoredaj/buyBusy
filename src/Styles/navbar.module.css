@@ -1,0 +1,42 @@
+
+.navbarContainer{
+    background-image: linear-gradient(to right, #ffdad9 0%, #ffcccb 51%, #ffe8e7 100%);
+    width: 90%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    padding:0px 5%;
+    font-size: 1.2rem;
+    font-weight: 500;
+    position: sticky;
+    top: 0;
+    z-index: 99; 
+    color:#a28382;
+}
+
+.appName a{
+    color: #a28382;
+}
+
+.appName a:hover{
+    color: #4f4140;
+}
+
+.navLinks{
+    float: right;
+}
+
+.navLinks span {
+    margin: 0px 10px;
+    cursor: pointer;
+}
+
+.navLinks a{
+    color: #a28382;
+}
+
+.navLinks a:hover{
+    color: #4f4140;
+}

@@ -1,0 +1,54 @@
+
+/* ============================== MyOrder.js ===========================  */
+
+.mainContainer{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.orderHeading{
+    color:#4f4140;
+}
+
+.orderListContainer{
+    width: 75%;
+}
+
+.mainContainer a{
+    font-size: 1.2rem;
+    text-decoration: underline;
+    font-weight: 700;
+    color: #4f4140;
+}
+
+
+/* ================================ OrderList.js ========================== */
+
+.orderListContainer > div{
+    padding: 5px;
+    width: 100%;
+    border-radius: 4px; 
+    margin: 10px;
+    background-image: linear-gradient(to top, #ffcccb 0%, #ffdad9 100%);
+    background-color: #292323;
+    box-shadow: 0px 0px 6px 2px #776160;
+}
+
+table{
+    width: 100%;
+    font-weight: 600;
+    border-collapse: collapse;
+    color:#a28382;
+}
+
+th,td{
+    background-color: #ffe8e7;
+    border:2px solid #776160;
+}
+
+th{
+    color: #776160;
+}
